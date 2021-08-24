@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+/*nav*/
+img{
+    width: 50px;
+}
+    nav{
+        background-color: #000000;
+    }
+        li{
+            font-family: 'Bebas Neue', cursive;
+            color: white;
+            font-size: 1rem; 
+            text-decoration: none;
+        }
+/*foto central*/        
+section{
+    background-image: url(../img/playersmainpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+    strong{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 5rem;
+        letter-spacing: 20px;
+    }
+/*foto main*/
+.main__Pic{
+    width: 100%;
+    padding: 10px;
+}
+    .card{
+        font-family: 'Bebas Neue', cursive;
+        color: #000000;
+    }
+    .card-text li{
+        color: #000000;
+    }
+    .video{
+        width: 100%;
+        border-radius: 5px;
+    }
+

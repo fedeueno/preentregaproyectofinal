@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+section{
+    background-image: url(../img/fotoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;   
+    strong{
+        font-family: $fontMain;
+        color: white;
+        font-size: 5rem;
+        letter-spacing: 20px;
+    }
+}    
+.text-center{
+    color: white;
+    font-family: $fontMain;
+    font-size: $fontSizeMedium;
+    letter-spacing: 10px;    
+    p{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: $fontSizeSmall;
+    }
+}    
+.container__form--black{
+    background-color: black;
+}
+    Legend{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2rem;
+        color: white;
+        h3{
+            font-family: 'Bebas Neue', cursive;
+            color: white;
+            label{
+                font-family: 'Bebas Neue', cursive;
+                color: white;
+            }
+        }    
+    }
+
+
+
+

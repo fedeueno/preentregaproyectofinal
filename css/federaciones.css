@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+/*css nav*/
+img{
+    width: 50px;
+}
+nav{
+    background-color: #000000;
+}
+    li{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 1rem; 
+        text-decoration: none;
+    }
+/*css main pic*/
+section{
+    background-image: url(../img/jpg1/fotoback2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}    
+    strong{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 5rem;
+        letter-spacing: 20px;
+    }
+/*css articulos*/    
+.secondBack{
+    background-color: black;
+}
+    .paises{
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Bebas Neue', cursive;
+        padding: 5px;
+    }
+        .contentThird{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            padding: 5px;
+            gap: 5px;
+        }    
+            .flag{
+                width: 100%;
+                height: 50vh;
+                object-fit: cover;
+                border-radius: 5px;
+                opacity: 0.3;
+            }
+            .flag:hover{
+                color: black;
+                opacity: 0.9;
+                
+            }
+/*cambios responsive*/
+            @media screen and (max-width:768px){
+                .contentThird{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(5);
+                    padding: 5px;
+                    gap: 5px;
+                }    
+                .flag{
+                    width: 100%;
+                    height: 10vh;
+                    object-fit: cover;
+                    border-radius: 10px;
+                    opacity: 0.3;
+                }
+                .flag:hover{
+                    color: black;
+                    opacity: 0.9;
+                    
+                }
+                
+            }
+

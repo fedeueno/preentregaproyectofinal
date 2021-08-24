@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+/*nav*/
+img{
+    width: 50px;
+}
+    nav{
+        background-color: #000000;
+    }
+        li{
+            font-family: 'Bebas Neue', cursive;
+            color: white;
+            font-size: 1rem; 
+            text-decoration: none;
+        }
+/*foto central*/        
+section{
+    background-image: url(../img/jpg1/fotosbck3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+    strong{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 5rem;
+        letter-spacing: 20px;
+    }
+/*articulos*/    
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+    .video{
+        width: 100%;
+    }
+        .text{
+            font-size: 2em;
+            color: white;
+            grid-column: 50%;
+            letter-spacing: 10px;
+        }
+            .Pics{
+                width: 100%;
+            }
+                p{
+                    color: white;
+                    font-family: 'Bebas Neue', cursive;
+                    margin: 10px;
+                    text-align: justify;
+                    font-size: 20px;
+                }
+.contenedorPreferencias div{
+    padding: 20px;
+    margin: 20px;
+}
+    .uno{
+        background-color: white;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+        width: 250px;
+        transition: width 2s;
+    }
+        .uno:hover{
+            width: 550px;
+            background: linear-gradient(to right, white, orangered);
+            cursor: pointer;
+        }
+    .dos{
+        background-color: white;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+        width: 250px;
+        transition: width 2s;
+    }
+        .dos:hover{
+            width: 450px;
+            background: linear-gradient(to right, white, orangered);
+            cursor: pointer;
+        }
+/*cambios responsive*/    
+@media screen and (max-width:768px){
+    strong{
+        align-items: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3);
+        gap: 20px;
+        padding: 30px;
+    }
+    
+}
+
+
+
+

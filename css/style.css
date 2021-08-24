@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+img {
+  width: 50px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav {
+  background-color: #000000; }
+  nav li {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 1em;
+    text-decoration: none; }
+
+body {
+  background-color: black; }
+
+section {
+  background-image: url(../img/fotoprincipal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh; }
+  section strong {
+    font-family: "Bebas Neue", cursive;
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 20px; }
+
+.text-center {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+  letter-spacing: 10px; }
+  .text-center p {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em; }
+
+.container__form--black {
+  background-color: black; }
+
+Legend {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  color: white; }
+  Legend h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: white; }
+    Legend h3 label {
+      font-family: 'Bebas Neue', cursive;
+      color: white; }
